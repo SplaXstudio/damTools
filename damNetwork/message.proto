@@ -1,0 +1,12 @@
+package damMessage;
+
+message Command{
+	optional TestingCommand testingCommand = 1;
+	#put your command here, use optional
+}
+
+#command defination example
+message TestingCommand{
+	required string parm1 = 1;
+	required string parm2 = 2;
+}
